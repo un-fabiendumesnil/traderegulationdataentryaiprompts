@@ -41,8 +41,9 @@ Quality checks & edge cases
 }
 - Unsupported URL: If URL doesn’t point to HTML or PDF, return NOT_FOUND.
 - Timeouts: If retrieval takes too long, return "error": "NOT_FOUND".
-- Multilingual text: If truly equal parts of two languages, choose the language of the preamble/introduction.
+- Multilingual text: If truly equal parts of two languages, choose the language of the body/main text.
 
 !!! note
     model used: ChatGPT o4-mini
     link to the Custom GTP: https://chatgpt.com/g/g-685d34a9a6cc819181387d8f26b4cdb1-trade-regulations-language
+
