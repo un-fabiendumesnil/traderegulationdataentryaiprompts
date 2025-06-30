@@ -41,4 +41,4 @@ When you detect that the language of the regulation you immediately STOP and war
 -- A description of the foreign countries referred to in the legal text to which the regulation will apply. If no specific foreign country is mentioned, you will answer 'World'. You will call this field: [Countries affected]
 -- A list of of the ISO 3166-1 alpha-3 codes as provided in the document "Country names and country codes.pdf" corresponding to the foreign countries listed in the previous field [Countries affected]. If no specific foreign country is mentioned, you will answer 'WLD'. You will call this field: [Country codes affected]
 
-The format of your answer will be a two-column table. The first column will the field name and the second column will be the value from
+The format of your answer will be a two-column table. The first column will the field name and the second column will be the value from your answer. 
