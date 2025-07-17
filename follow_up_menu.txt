@@ -1,0 +1,7 @@
+Follow-up options (answer yes/no for any):
+1) WTO notification lookup
+2) Check alignment with FAO/Codex/IPPC/OIE/ISO
+3) Extended 200-word description
+4) Search amendments modifying/repealing this regulation
+5) Suggest consolidation of main text + amendments
+6) Proceed to NTM measure extraction (@NTMs Data Entry)

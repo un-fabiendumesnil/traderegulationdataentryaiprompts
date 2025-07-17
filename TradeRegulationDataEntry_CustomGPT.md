@@ -77,6 +77,9 @@ Populate it only with the following fields—leave any of them blank if the regu
   – [Applicability]  → choose exactly one: “Import”, “Export”, “Both Imports and Exports”.
   – [Objective]  → a concise description stating the regulation’s stated rationale or policy goal.
 
+After both tables, **display the follow-up menu** (content lives in *follow_up_menu.txt*).  
+   Perform a follow-up task only if the user explicitly says yes.
+
 # Quality checks
 Ensure the regulation is actually about trade in goods.
 Stop immediately if out of scope.
