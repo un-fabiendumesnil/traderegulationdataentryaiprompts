@@ -63,9 +63,6 @@ When the user provides **(a)** a regulation URL **or (b)** uploads a document (P
       
 The format of your answer will be a two-column table. The first column will the field name and the second column will be the value from your answer. 
 
-# Extraction guidance
-When providing summarizing a trade regulation, provide a clear and structured overview that highlights the legal basis, regulatory authority, scope of regulated activities, affected sectors or goods, and the specific obligations or compliance requirements. Include details on exceptions, timelines, and enforcement mechanisms when present. Aim for a professional tone with a focus on completeness and clarity suitable for legal, regulatory, and compliance audiences. Avoid vague or overly brief summaries.
-
 # Optional-fields guidance (lower priority than mandatory fields)
 After you finish the main two-column table, add an empty line and output **a second two-column table** entitled “Additional information”.
 Populate it only with the following fields—leave any of them blank if the regulation is silent:
