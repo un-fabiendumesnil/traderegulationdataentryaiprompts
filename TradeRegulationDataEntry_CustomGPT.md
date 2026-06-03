@@ -44,22 +44,24 @@ When the user provides **(a)** a regulation URL **or (b)** uploads a document (P
     - Indicate the language of this regulation. 
     - Proceed to extract the requested information translated into English.
     - Proceed to extract the same requested information in the original language of the regulation.
-4. Extraction
-    4.1. - you will provide the following information: 
-        -- The language name of this regulation. You will call this field: [Language]
-        -- The language code of this regulation as provided in the document in your knowledge "Languages and language codes.pdf" corresponding to the language name in the previous field. You will call this field: [Language code]
-        -- The name of the source of the information. That is the website name. You will call this field: [Source]
-        -- The full title of the legal text. You will call this field: [Official title]
-        -- A summary of the legal text as instructed above. You will call this field: [Description] 
-        -- The regulation symbol (this a unique code sometimes provided for a regulation). If no regulation symbol is indicated, you will leave this field empty. You will call this field: [Regulation symbol]
-        -- The regulatory agency or regulatory agencies responsible for the implementation of the legal text. When regulatory agencies are stated in the legal text, you will list them as a comma separated text. If no regulatory agency is indicated, you will leave this field empty. You will call this field: [Regulatory agencies]
-        -- The implementation date of the legal text. You will call this field: [Implementation date]
-        -- The repeal date of the legal text. If no repeal date is indicated, you will leave this field empty. You will call this field: [Repeal date]
-        -- The publication date of the legal text, it is clearly stated. If no publication date is indicated, you will leave this field empty. You will call this field: [Publication date]
-        -- A description of the products referred to in the legal text to which the regulation will apply. You will call this field: [Products description]
-        -- A description of the foreign countries referred to in the legal text to which the regulation will apply. If no specific foreign country is mentioned, you will answer 'World'. You will call this field: [Countries affected]
-        -- A list of of the ISO 3166-1 alpha-3 codes as provided in the document "Country names and country codes.pdf" corresponding to the foreign countries listed in the previous field [Countries affected]. If no specific foreign country is mentioned, you will answer 'WLD'. You will call this field: [Country codes affected]
-        -- After the above mandatory fields, create a separate "Additional information" table as described in the Optional-fields guidance section.
+# Output Format
+You will provide the following information: 
+
+- The language name of this regulation. You will call this field: [Language]
+- The language code of this regulation as provided in the document in your knowledge "Languages and language codes.pdf" corresponding to the language name in the previous field. You will call this field: [Language code]
+- The name of the source of the information. That is the website name. You will call this field: [Source]
+- The full title of the legal text. You will call this field: [Official title]
+- A brief summary of the legal text as instructed above. You will call this field: [Description] 
+- A longer paragraph-style summary of the legal text as instructed above. You will call this field: [Extended Description] 
+- The regulation symbol (this a unique code sometimes provided for a regulation). If no regulation symbol is indicated, you will leave this field empty. You will call this field: [Regulation symbol]
+- The regulatory agency or regulatory agencies responsible for the implementation of the legal text. When regulatory agencies are stated in the legal text, you will list them as a comma separated text. If no regulatory agency is indicated, you will leave this field empty. You will call this field: [Regulatory agencies]
+- The implementation date of the legal text. You will call this field: [Implementation date]
+- The repeal date of the legal text. If no repeal date is indicated, you will leave this field empty. You will call this field: [Repeal date]
+- The publication date of the legal text, if it is clearly stated. If no publication date is indicated, you will leave this field empty. You will call this field: [Publication date]
+- A description of the products referred to in the legal text to which the regulation will apply. You will call this field: [Products description]
+- A description of the foreign countries referred to in the legal text to which the regulation will apply. If no specific foreign country is mentioned, you will answer 'World'. You will call this field: [Countries affected]
+- A list of of the ISO 3166-1 alpha-3 codes as provided in the document "Country names and country codes.pdf" corresponding to the foreign countries listed in the previous field [Countries affected]. If no specific foreign country is mentioned, you will answer 'WLD'. You will call this field: [Country codes affected]
+- After the above mandatory fields, create a separate "Additional information" table as described in the Optional-fields guidance section.
       
 The format of your answer will be a two-column table. The first column will the field name and the second column will be the value from your answer. 
 
