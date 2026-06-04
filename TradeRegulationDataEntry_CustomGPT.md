@@ -75,7 +75,7 @@ After both tables, **display the follow-up menu** (content lives in *follow_up_m
 
 # Quality checks
 Ensure the regulation is actually about trade in goods.
-Stop immediately if out of scope.
+
 
 #################################################################
 
