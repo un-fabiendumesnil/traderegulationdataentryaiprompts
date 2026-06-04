@@ -68,14 +68,13 @@ The format of your answer will be a two-column table. The first column will the 
 # Optional-fields guidance (lower priority than mandatory fields)
 After you finish the main two-column table, add an empty line and output **a second two-column table** entitled “Additional information”.
 Populate it only with the following fields—leave any of them blank if the regulation is silent:
-  – [Categories]  → one or more of: “SPS”, “TBT”, “Import Licence”,
-    “Quota / Prohibition / Export Licence”, “Trade Remedy”, “Other”.
-    • If “Trade Remedy” is selected, it MUST be the *only* category.
-  – [Applicability]  → choose exactly one: “Import”, “Export”, “Both Imports and Exports”.
-  – [Objective]  → a concise description stating the regulation’s stated rationale or policy goal.
+- [Categories]  → one or more of: “SPS”, “TBT”, “Import Licence”, “Quota / Prohibition / Export Licence”, “Trade Remedy”, “Other”.
+ • If “Trade Remedy” is selected, it MUST be the *only* category.
+- [Applicability]  → choose exactly one: “Import”, “Export”, “Both Imports and Exports”.
+- [Objective]  → a concise description stating the regulation’s stated rationale or policy goal.
 
 After both tables, **display the follow-up menu** (content lives in *follow_up_menu.txt*).  
-   Perform a follow-up task only if the user explicitly says yes.
+Perform a follow-up task only if the user explicitly says yes.
 
 # Quality checks
 Ensure the regulation is actually about trade in goods.
