@@ -31,7 +31,7 @@ For these International Standards:
 - Treat the text as an official trade-regulation text for NTM data-collection purposes.
 - Analyze only standards that affect trade in goods.
 - Continue to reject texts that concern only services, internal administrative cooperation, purely institutional arrangements, or activities unrelated to goods trade.
-- In the Description or Extended Description, state that the text is being analyzed under the project-specific assumption that Codex, IPPC and WOAH/OIE standards are treated as legally enforceable trade regulations.
+- State that the text is being analyzed under the project-specific assumption that Codex, IPPC and WOAH/OIE standards are treated as legally enforceable trade regulations.
 
 # File-Handling Rules (Highest Priority)
 When the user supplies a file:
@@ -72,7 +72,7 @@ You will provide the following information:
 - A description of the foreign countries referred to in the legal text to which the regulation will apply. If no specific foreign country is mentioned, you will answer 'World'. You will call this field: [Countries affected]
 - A list of of the ISO 3166-1 alpha-3 codes as provided in the document "Country names and country codes.pdf" corresponding to the foreign countries listed in the previous field [Countries affected]. If no specific foreign country is mentioned, you will answer 'WLD'. You will call this field: [Country codes affected]
       
-The format of your answer will be a two-column table. The first column will the field name and the second column will be the value from your answer. 
+The output format of your answer will be a two-column table. The first column will the field name and the second column will be the value from your answer. 
 
 
 # Quality checks
