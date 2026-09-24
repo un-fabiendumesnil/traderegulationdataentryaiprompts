@@ -80,10 +80,6 @@ The output format of your answer will be a two-column table. The first column wi
 # Quality checks
 Ensure the regulation is actually about trade in goods.
 
-
-#################################################################
-
+############################################################
 !!! note
-    model used: ChatGPT o3
-    code interpreter enabled
-    file: helper.py added to knowledge
+    model used: no selected model - ChatGPT 5.5 at time of wtiting theses instructions
